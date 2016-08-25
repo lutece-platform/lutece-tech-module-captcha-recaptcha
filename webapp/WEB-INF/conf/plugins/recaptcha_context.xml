@@ -7,5 +7,9 @@
 <!-- ReCaptcha Service -->
  <bean id="recaptcha.reCaptchaService" class="fr.paris.lutece.plugins.captcha.modules.recaptcha.service.ReCaptchaService"></bean>
 <!-- Proprietes du site -->
-<bean id="recaptcha.sitePropertiesGroup" class="fr.paris.lutece.plugins.captcha.modules.recaptcha.service.RecaptchaSitePropertiesGroup" />
+<bean id="recaptcha.sitePropertiesGroup" class="fr.paris.lutece.portal.service.site.properties.SitePropertiesGroup" >
+        <property name="nameKey"><value>module.captcha.recaptcha.site_properties.name</value></property>
+        <property name="descriptionKey"><value>module.captcha.recaptcha.site_properties.description</value></property>
+        <property name="keysPrefix"><value>module.captcha.recaptcha.site_property.</value></property>
+</bean>
 </beans>

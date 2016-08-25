@@ -41,8 +41,8 @@ import fr.paris.lutece.portal.service.site.properties.ILocalizedSitePropertiesGr
  */
 public class RecaptchaSitePropertiesGroup implements ILocalizedSitePropertiesGroup
 {
-    private static final String KEY_NAME = "recaptcha.site_properties.name";
-    private static final String KEY_DESCRIPTION = "recaptcha.site_properties.description";
+    private static final String KEY_NAME = "module.captcha.recaptcha.site_properties.name";
+    private static final String KEY_DESCRIPTION = "module.captcha.recaptcha.site_properties.description";
     private static final String PREFIX = "recaptcha.site_property.";
 
     /**
