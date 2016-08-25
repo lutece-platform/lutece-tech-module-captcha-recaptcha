@@ -44,6 +44,12 @@
     <properties>
         <componentName>recaptcha</componentName>
         <jiraProjectName>RECAPTCHA</jiraProjectName>
-        <jiraComponentId></jiraComponentId>
+        <jiraComponentId>13553</jiraComponentId>
     </properties>
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-tech-module-captcha-recaptcha.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-tech-module-captcha-recaptcha.git</developerConnection>
+        <url>https://github.com/lutece-platform/lutece-tech-module-captcha-recaptcha.git</url>
+      <tag>HEAD</tag>
+  </scm>
 </project>
