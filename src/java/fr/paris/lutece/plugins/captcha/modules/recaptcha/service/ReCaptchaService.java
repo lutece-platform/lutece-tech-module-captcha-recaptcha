@@ -61,9 +61,9 @@ public class ReCaptchaService implements IReCaptchaService
     private static final String PARAM_SUCCESS = "success";
     private static final String PARAM_REMOTEIP = "remoteip";
     private static final String PARAM_RECAPTCHA_RESPONSE = "g-recaptcha-response";
-    private static final String DSKEY_SITE_KEY = "recaptcha.site_property.siteKey";
-    private static final String DSKEY_SECRET_KEY = "recaptcha.site_property.sercretKey";
-    private static final String DSKEY_URL_VERIFY = "recaptcha.site_property.urlVerify";
+    private static final String DSKEY_SITE_KEY = "module.captcha.recaptcha.site_property.siteKey";
+    private static final String DSKEY_SECRET_KEY = "module.captcha.recaptcha.site_property.sercretKey";
+    private static final String DSKEY_URL_VERIFY = "module.captcha.recaptcha.site_property.urlVerify";
 
     /**
      * Default constructor.
